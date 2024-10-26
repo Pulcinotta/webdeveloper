@@ -5,7 +5,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Elena Ferrari, Web Developer. Specializzata in sviluppo web e design.">
     <title>Elena Ferrari - Web Developer</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #007BFF;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 2rem;
+            margin: 1rem 0;
+        }
+
+        .profile-img {
+            width: 150px; /* Larghezza dell'immagine del profilo */
+            border-radius: 50%; /* Immagine rotonda */
+            margin: 1rem 0;
+        }
+
+        .portfolio-item {
+            margin-bottom: 2rem; /* Spazio tra i progetti */
+        }
+
+        .portfolio-img {
+            width: 100%; /* Immagini responsive */
+            max-width: 600px; /* Larghezza massima dell'immagine */
+            height: auto; /* Mantiene le proporzioni */
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -23,6 +83,7 @@
 
     <section id="about">
         <h3>Chi Sono</h3>
+        <img src="https://via.placeholder.com/150" alt="Elena Ferrari" class="profile-img">
         <p>Ciao! Sono Elena, una web developer appassionata di creare siti web funzionali e belli. Ho esperienza in HTML, CSS, JavaScript e in vari framework.</p>
     </section>
 
@@ -40,15 +101,18 @@
         <h3>Portfolio</h3>
         <div class="portfolio-item">
             <h4>Progetto 1</h4>
-            <p>Descrizione del progetto 1.</p>
+            <img src="https://via.placeholder.com/600x400" alt="Progetto 1" class="portfolio-img">
+            <p>Descrizione del progetto 1: Sito web responsive per un cliente.</p>
         </div>
         <div class="portfolio-item">
             <h4>Progetto 2</h4>
-            <p>Descrizione del progetto 2.</p>
+            <img src="https://via.placeholder.com/600x400" alt="Progetto 2" class="portfolio-img">
+            <p>Descrizione del progetto 2: E-commerce con funzionalità avanzate.</p>
         </div>
         <div class="portfolio-item">
             <h4>Progetto 3</h4>
-            <p>Descrizione del progetto 3.</p>
+            <img src="https://via.placeholder.com/600x400" alt="Progetto 3" class="portfolio-img">
+            <p>Descrizione del progetto 3: Blog personale con design unico.</p>
         </div>
     </section>
 
@@ -68,8 +132,8 @@
     <footer>
         <p>&copy; 2024 Elena Ferrari. Tutti i diritti riservati.</p>
         <p>Seguimi sui social media: 
-            <a href="https://twitter.com/tuo_username">Twitter</a>, 
-            <a href="https://linkedin.com/in/tuo_username">LinkedIn</a>
+            <a href="https://twitter.com/tuo_username" style="color: white;">Twitter</a>, 
+            <a href="https://linkedin.com/in/tuo_username" style="color: white;">LinkedIn</a>
         </p>
     </footer>
 </body>
