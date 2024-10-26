@@ -5,69 +5,59 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif; /* Scegli un font più moderno */
     line-height: 1.6;
+    background-color: #f4f4f4; /* Colore di sfondo chiaro */
+    color: #333; /* Colore del testo */
 }
 
 header {
-    background: #333;
-    color: #fff;
+    background: #007bff; /* Colore di sfondo blu */
+    color: white;
     padding: 10px 0;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    margin: 20px 0; /* Margine per titoli */
 }
 
 .container {
     width: 80%;
     margin: auto;
     overflow: hidden;
+    padding: 20px; /* Padding per la container */
 }
 
 nav ul {
-    list-style: none;
+    list-style: none; /* Rimuove i punti elenco */
+    padding: 0; /* Rimuove il padding */
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 20px;
+    display: inline; /* Visualizza gli elementi in linea */
+    margin-right: 20px; /* Spaziatura tra i link */
 }
 
 nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.hero {
-    background: url('hero-image.jpg') no-repeat center center/cover;
-    height: 400px;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-.hero-content {
-    padding: 20px;
-}
-
-.cta-button {
-    background: #e8491d;
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
+    color: #fff; /* Colore del testo dei link */
+    text-decoration: none; /* Rimuove la sottolineatura */
 }
 
 section {
-    padding: 20px;
-}
-
-.service, .project {
-    margin: 20px 0;
+    background: white; /* Sfondo bianco per le sezioni */
+    padding: 20px; /* Padding per le sezioni */
+    margin: 20px 0; /* Margine per le sezioni */
+    border-radius: 5px; /* Angoli arrotondati */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombra leggera */
 }
 
 footer {
-    background: #333;
-    color: #fff;
+    background: #333; /* Sfondo scuro per il footer */
+    color: white;
     text-align: center;
-    padding: 10px 0;
+    padding: 10px 0; /* Padding per il footer */
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
